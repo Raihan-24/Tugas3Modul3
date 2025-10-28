@@ -1,21 +1,21 @@
-# 🎟️ Event Ticket Booking System
+# Event Ticket Booking System
 
-## 📖 Deskripsi
+## Deskripsi
 Program ini dibuat sebagai bagian dari **Tugas 2 Modul 3 - Pemrograman Lanjut**.  
 Aplikasi ini berfungsi untuk menampilkan informasi event, harga tiket, dan harga setelah diskon.  
 Program juga memungkinkan pelanggan untuk memesan tiket event.
 
-## 🧠 Konsep yang Diterapkan
+## Konsep yang Diterapkan
 - **Inheritance (Pewarisan):** `Event` mewarisi atribut dari `BaseEvent`.
 - **Interface:** `Ticketable` memastikan bahwa `Event` memiliki method `showEvent()`.
 - **Encapsulation:** Atribut di `BaseEvent` dilindungi dengan getter dan setter.
 - **Polymorphism:** Method `showEvent()` diimplementasikan secara spesifik di `Event`.
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 1. Jalankan file `MainApp.java` di IntelliJ IDEA.
 2. Program akan menampilkan detail event dan hasil pemesanan tiket.
 
-## 💻 Contoh Output
+## Contoh Output
 
 ````
 Event Name: Valorant Championship 
