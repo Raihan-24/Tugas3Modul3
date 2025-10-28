@@ -32,10 +32,10 @@ class Event extends BaseEvent implements Ticketable {
     private void calculateDiscountPrice() {
         System.out.println("Discounted Price: " + (getPrice() - getPrice() * DISCOUNT_RATE));
 
-        /*
+
         double tax = 0.1;
         double finalPrice = (getPrice() - getPrice() * DISCOUNT_RATE) + (getPrice() * tax);
-        System.out.println("Final Price after tax: " + finalPrice);*/
+        System.out.println("Final Price after tax: " + finalPrice);
     }
 
 }
